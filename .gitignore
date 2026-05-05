@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets and generated exports
+train.csv
+chunk_*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
